@@ -1,0 +1,22 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">mt_gallery</custom-type>
+	<custom-type translate="1">mt_testimonials</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">mt_gallery_subtitle</custom-field>
+	<custom-field action="copy">mt_gallery_images</custom-field>
+	<custom-field action="copy">mt_gallery_template</custom-field>
+	<custom-field action="translate">mt_page_title</custom-field>
+	<custom-field action="translate">mt_page_subtitle</custom-field>
+	<custom-field action="copy">mt_page_top_imgh</custom-field>
+   </custom-fields>
+  <admin-texts>
+    <key name="theme_mods_caverta">
+      <key name="mt_header_btn"/>
+	  <key name="mt_mobile_info"/>
+	  <key name="mt_slide_text"/>
+	   <key name="mt_footer_copy"/>
+     </key>
+  </admin-texts>
+</wpml-config>

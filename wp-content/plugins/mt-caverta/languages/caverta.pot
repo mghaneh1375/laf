@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MT Caverta\n"
+"POT-Creation-Date: 2021-08-07 15:24+0300\n"
+"PO-Revision-Date: 2021-08-07 15:24+0300\n"
+"Last-Translator: \n"
+"Language-Team: matchthemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mt-caverta.php:29
+msgid "Galleries"
+msgstr ""
+
+#: mt-caverta.php:30 mt-caverta.php:45 mt-caverta.php:46
+msgid "Gallery"
+msgstr ""
+
+#: mt-caverta.php:31 mt-caverta.php:32
+msgid "Add New Gallery"
+msgstr ""
+
+#: mt-caverta.php:33
+msgid "Edit Gallery"
+msgstr ""
+
+#: mt-caverta.php:34
+msgid "New Gallery"
+msgstr ""
+
+#: mt-caverta.php:35
+msgid "View Gallery"
+msgstr ""
+
+#: mt-caverta.php:36
+msgid "Search Gallery"
+msgstr ""
+
+#: mt-caverta.php:37 mt-caverta.php:69
+msgid "Nothing found"
+msgstr ""
+
+#: mt-caverta.php:38 mt-caverta.php:70
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: mt-caverta.php:60 mt-caverta.php:76 mt-caverta.php:77
+msgid "Testimonials"
+msgstr ""
+
+#: mt-caverta.php:61
+msgid "Testimonial"
+msgstr ""
+
+#: mt-caverta.php:62 mt-caverta.php:63
+msgid "Add New Testimonial"
+msgstr ""
+
+#: mt-caverta.php:64
+msgid "Edit Testimonial"
+msgstr ""
+
+#: mt-caverta.php:65
+msgid "New Testimonial"
+msgstr ""
+
+#: mt-caverta.php:66
+msgid "View Testimonial"
+msgstr ""
+
+#: mt-caverta.php:67
+msgid "All Testimonials"
+msgstr ""
+
+#: mt-caverta.php:68
+msgid "Search Testimonials"
+msgstr ""
+
+#: shortcodes.php:117
+msgid "Read More"
+msgstr ""
+
+#: shortcodes.php:183
+msgid ""
+"Gallery Shortcode: Make sure you have added gallery images via Galleries "
+"option and the post ID is correct"
+msgstr ""
+
+#: shortcodes.php:219
+msgid "OpenTable Shortcode: Make sure your OpenTable ID is correct"
+msgstr ""

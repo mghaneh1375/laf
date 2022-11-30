@@ -1,0 +1,14 @@
+@import '../../scss/index.scss';
+
+
+.post-code-check {
+    .dimmed {
+        color: #8a8a8a;
+    }
+    .form-check-label {
+        @include fontSize(15px);
+        &.danger {
+            color: $primary;
+        }
+    }
+}

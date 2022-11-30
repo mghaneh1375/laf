@@ -1,0 +1,3 @@
+#footer-instagram > .widget-footer-instagram > div:first-child {
+	display: none !important;
+}

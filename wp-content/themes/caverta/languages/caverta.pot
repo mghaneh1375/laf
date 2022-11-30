@@ -1,0 +1,1409 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Caverta\n"
+"POT-Creation-Date: 2021-09-01 12:55+0300\n"
+"PO-Revision-Date: 2021-09-01 12:55+0300\n"
+"Last-Translator: \n"
+"Language-Team: matchthemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "404"
+msgstr ""
+
+#: 404.php:6
+msgid "Error, Page Not Found!"
+msgstr ""
+
+#: 404.php:14
+msgid "It looks like nothing was found at this location. Sorry about that."
+msgstr ""
+
+#: 404.php:15
+msgid "Go To Homepage"
+msgstr ""
+
+#: archive.php:15
+msgid "Browsing Category"
+msgstr ""
+
+#: archive.php:18
+msgid "Browsing Tag"
+msgstr ""
+
+#: archive.php:21 archive.php:24 archive.php:27
+msgid "Browsing Archives"
+msgstr ""
+
+#: archive.php:29
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:31
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:11
+msgid "0 Comments"
+msgstr ""
+
+#: comments.php:11
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:11
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:17
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:18
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:19
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:35
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:38
+msgid "Name"
+msgstr ""
+
+#: comments.php:39
+msgid "Email"
+msgstr ""
+
+#: comments.php:40
+msgid "Website"
+msgstr ""
+
+#: comments.php:43
+msgid "Comments"
+msgstr ""
+
+#: comments.php:45
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:17
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:170
+msgid "Please fill the Name field!"
+msgstr ""
+
+#: functions.php:171
+msgid "Please fill the Email field!"
+msgstr ""
+
+#: functions.php:172
+msgid "Please provide a valid Email address!"
+msgstr ""
+
+#: functions.php:173
+msgid "Please fill the Message field!"
+msgstr ""
+
+#: functions.php:174
+msgid "Sending comment...!"
+msgstr ""
+
+#: functions.php:175
+msgid "Comment sent"
+msgstr ""
+
+#: functions.php:205
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:206
+msgid "Main sidebar that appears on a normal page."
+msgstr ""
+
+#: functions.php:215
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:217
+msgid "Widgets in this area are used in the first footer column"
+msgstr ""
+
+#: functions.php:226
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:228
+msgid "Widgets in this area are used in the second footer column"
+msgstr ""
+
+#: functions.php:237
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:239
+msgid "Widgets in this area are used in the third footer column"
+msgstr ""
+
+#: functions.php:248
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:250
+msgid "Widgets in this area are used in the fourth footer column"
+msgstr ""
+
+#: functions.php:259
+msgid "Footer Instagram"
+msgstr ""
+
+#: functions.php:261
+msgid "We recommend to use only the Instagram widget here."
+msgstr ""
+
+#: functions.php:289
+msgid "Custom Size"
+msgstr ""
+
+#: functions.php:309
+msgid "&larr; Newer"
+msgstr ""
+
+#: functions.php:319
+msgid "Older &rarr;"
+msgstr ""
+
+#: functions.php:349
+msgid "Reply"
+msgstr ""
+
+#: include/assets/layouts/layout-1col.php:13
+#: include/assets/layouts/layout-1col_list_left.php:58
+#: include/assets/layouts/layout-2col_grid.php:49
+#: include/assets/layouts/layout-3col_grid.php:77
+msgid "NOTHING FOUND"
+msgstr ""
+
+#: include/assets/layouts/layout-1col.php:14
+#: include/assets/layouts/layout-1col_list_left.php:60
+#: include/assets/layouts/layout-2col_grid.php:50
+#: include/assets/layouts/layout-3col_grid.php:79
+msgid ""
+"Sorry, but it seems we can&rsquo;t find what you&rsquo;re looking for. Try a "
+"new search or the menu above."
+msgstr ""
+
+#: include/assets/layouts/layout-1col.php:23
+#: include/assets/layouts/layout-1col_list_left.php:79
+#: include/assets/layouts/layout-2col_grid.php:60
+#: include/assets/layouts/layout-3col_grid.php:98
+msgid "&larr; Prev"
+msgstr ""
+
+#: include/assets/layouts/layout-1col.php:24
+#: include/assets/layouts/layout-1col_list_left.php:80
+#: include/assets/layouts/layout-2col_grid.php:61
+#: include/assets/layouts/layout-3col_grid.php:99
+msgid "Next &rarr;"
+msgstr ""
+
+#: include/assets/layouts/layout-1col_list_left.php:32
+#: include/assets/layouts/layout-2col_grid.php:31
+#: include/assets/layouts/layout-3col_grid.php:47
+#: include/assets/layouts/layout-first_article_full.php:16
+msgid "Featured"
+msgstr ""
+
+#: include/assets/layouts/layout-1col_list_left.php:44
+#: include/assets/layouts/layout-2col_grid.php:36
+#: include/assets/layouts/layout-3col_grid.php:57
+#: include/assets/layouts/layout-first_article_full.php:24
+msgid "Read More"
+msgstr ""
+
+#: include/assets/layouts/layout-3col_grid.php:112
+msgid "3 Columns Grid"
+msgstr ""
+
+#: include/assets/layouts/layout-3col_grid.php:114
+msgid ""
+"This layout only works in full width mode. Go to Appearance > Customize > "
+"General Options > Blog - Sidebar Display and choose the Full Width option"
+msgstr ""
+
+#: include/customizer/customizer-options.php:22
+msgid "Headers"
+msgstr ""
+
+#: include/customizer/customizer-options.php:28
+msgid "General Options"
+msgstr ""
+
+#: include/customizer/customizer-options.php:34
+msgid "Typography"
+msgstr ""
+
+#: include/customizer/customizer-options.php:40
+msgid "Social Media"
+msgstr ""
+
+#: include/customizer/customizer-options.php:61
+msgid "Top Header Display"
+msgstr ""
+
+#: include/customizer/customizer-options.php:65
+msgid "Top Header 1"
+msgstr ""
+
+#: include/customizer/customizer-options.php:66
+msgid "Top Header 2"
+msgstr ""
+
+#: include/customizer/customizer-options.php:67
+msgid "Top Header 3"
+msgstr ""
+
+#: include/customizer/customizer-options.php:68
+msgid "Top Header 4"
+msgstr ""
+
+#: include/customizer/customizer-options.php:69
+msgid "Top Header 5"
+msgstr ""
+
+#: include/customizer/customizer-options.php:70
+msgid "Top Header 6"
+msgstr ""
+
+#: include/customizer/customizer-options.php:71
+msgid "Top Header 7"
+msgstr ""
+
+#: include/customizer/customizer-options.php:78
+msgid "Fixed Top Header"
+msgstr ""
+
+#: include/customizer/customizer-options.php:82
+#: include/customizer/customizer-options.php:266
+#: include/customizer/kirki/controls/php/class-kirki-control-switch.php:52
+#: include/customizer/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr ""
+
+#: include/customizer/customizer-options.php:83
+#: include/customizer/customizer-options.php:267
+#: include/customizer/kirki/controls/php/class-kirki-control-switch.php:56
+#: include/customizer/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: include/customizer/customizer-options.php:90
+msgid "Header Button"
+msgstr ""
+
+#: include/customizer/customizer-options.php:93
+msgid "Add header button"
+msgstr ""
+
+#: include/customizer/customizer-options.php:99
+msgid "Header Business Info"
+msgstr ""
+
+#: include/customizer/customizer-options.php:102
+msgid "Add header business info for header 4 and 5"
+msgstr ""
+
+#: include/customizer/customizer-options.php:108
+msgid "Mobile Business Info"
+msgstr ""
+
+#: include/customizer/customizer-options.php:111
+msgid "Add mobile menu business info"
+msgstr ""
+
+#: include/customizer/customizer-options.php:119
+msgid "Home - Slider or Video"
+msgstr ""
+
+#: include/customizer/customizer-options.php:123
+msgid "Slider"
+msgstr ""
+
+#: include/customizer/customizer-options.php:124
+msgid "Video"
+msgstr ""
+
+#: include/customizer/customizer-options.php:130
+msgid "Home - Slider Items"
+msgstr ""
+
+#: include/customizer/customizer-options.php:132
+msgid "Create home top slider. Add as much items as you want"
+msgstr ""
+
+#: include/customizer/customizer-options.php:135
+msgid "Slider Item"
+msgstr ""
+
+#: include/customizer/customizer-options.php:142
+msgid "Slider Text"
+msgstr ""
+
+#: include/customizer/customizer-options.php:143
+msgid "Add slider text"
+msgstr ""
+
+#: include/customizer/customizer-options.php:148
+msgid "Slider Image"
+msgstr ""
+
+#: include/customizer/customizer-options.php:149
+msgid "Upload image file"
+msgstr ""
+
+#: include/customizer/customizer-options.php:158
+msgid "Home - Video URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:161
+msgid "Add home top video URL ( video must be self hosted )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:167
+msgid "Home - Video Text"
+msgstr ""
+
+#: include/customizer/customizer-options.php:170
+msgid "Add home top video text"
+msgstr ""
+
+#: include/customizer/customizer-options.php:176
+msgid "Home - Video Image Preloader"
+msgstr ""
+
+#: include/customizer/customizer-options.php:179
+msgid "Add video image preloader. Useful for slow speed connections."
+msgstr ""
+
+#: include/customizer/customizer-options.php:185
+msgid "Blog - Articles Layout"
+msgstr ""
+
+#: include/customizer/customizer-options.php:187
+msgid "Select the articles layout for blog page"
+msgstr ""
+
+#: include/customizer/customizer-options.php:200
+msgid "Blog - Sidebar Display"
+msgstr ""
+
+#: include/customizer/customizer-options.php:202
+msgid ""
+"Select how do you want to display the sidebar for home / archive pages "
+"( right / left / none )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:214
+msgid "Single Blog Page - Sidebar Display"
+msgstr ""
+
+#: include/customizer/customizer-options.php:216
+msgid "Select how do you want to display the sidebar for single blog pages"
+msgstr ""
+
+#: include/customizer/customizer-options.php:228
+msgid "Footer - Widgets Columns"
+msgstr ""
+
+#: include/customizer/customizer-options.php:231
+msgid "Select the number of footer columns"
+msgstr ""
+
+#: include/customizer/customizer-options.php:233
+msgid "Footer Column 1"
+msgstr ""
+
+#: include/customizer/customizer-options.php:234
+msgid "Footer Column 2"
+msgstr ""
+
+#: include/customizer/customizer-options.php:235
+msgid "Footer Column 3"
+msgstr ""
+
+#: include/customizer/customizer-options.php:236
+msgid "Footer Column 4"
+msgstr ""
+
+#: include/customizer/customizer-options.php:243
+msgid "Footer - Background Image"
+msgstr ""
+
+#: include/customizer/customizer-options.php:245
+msgid "Add footer background image"
+msgstr ""
+
+#: include/customizer/customizer-options.php:252
+msgid "Footer - Copyright"
+msgstr ""
+
+#: include/customizer/customizer-options.php:255
+msgid "Add footer copyright"
+msgstr ""
+
+#: include/customizer/customizer-options.php:261
+msgid "Scroll Top Button"
+msgstr ""
+
+#: include/customizer/customizer-options.php:264
+msgid "Show/Hide scroll to top button"
+msgstr ""
+
+#: include/customizer/customizer-options.php:276
+msgid "Body Text Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:285
+msgid "Link Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:293
+msgid "Heavy Color for Headings"
+msgstr ""
+
+#: include/customizer/customizer-options.php:303
+msgid "Menu Item - Normal State Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:311
+msgid "Menu Item - Hover State Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:319
+msgid "Menu Item - SubMenu Background Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:327
+msgid "Menu Item - SubMenu Normal Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:335
+msgid "Menu Item - SubMenu Hover Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:343
+msgid "Footer - Background Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:351
+msgid "Footer - Text Color"
+msgstr ""
+
+#: include/customizer/customizer-options.php:361
+msgid "Body - Font Family"
+msgstr ""
+
+#: include/customizer/customizer-options.php:364
+#: include/customizer/customizer-options.php:395
+msgid "Select a font family from the Google Web Fonts"
+msgstr ""
+
+#: include/customizer/customizer-options.php:372
+msgid "Body - Font Weight"
+msgstr ""
+
+#: include/customizer/customizer-options.php:375
+msgid "Add body font weights"
+msgstr ""
+
+#: include/customizer/customizer-options.php:382
+msgid "Body - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:385
+msgid "Select body text font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:392
+msgid "Titles - Font Family"
+msgstr ""
+
+#: include/customizer/customizer-options.php:403
+msgid "Titles - Font Weight"
+msgstr ""
+
+#: include/customizer/customizer-options.php:406
+msgid "Add post titles font weights"
+msgstr ""
+
+#: include/customizer/customizer-options.php:413
+msgid "H1 - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:416
+msgid "Select H1 heading font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:423
+msgid "H2 - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:426
+msgid "Select H2 heading font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:433
+msgid "H3 - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:436
+msgid "Select H3 heading font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:443
+msgid "H4 - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:446
+msgid "Select H4 heading font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:453
+msgid "H5 - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:456
+msgid "Select H5 heading font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:463
+msgid "H6 - Font Size"
+msgstr ""
+
+#: include/customizer/customizer-options.php:466
+msgid "Select H6 heading font size ( in px )"
+msgstr ""
+
+#: include/customizer/customizer-options.php:473
+msgid "Facebook URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:476
+msgid "Add Facebook URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:482
+msgid "Twitter URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:485
+msgid "Add Twitter URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:491
+msgid "Instagram URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:494
+msgid "Add Instagram URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:500
+msgid "Linkedin URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:503
+msgid "Add Linkedin URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:509
+msgid "Pinterest URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:512
+msgid "Add Pinterest URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:518
+msgid "Trip Advisor URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:521
+msgid "Add Trip Advisor URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:527
+msgid "YouTube URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:530
+msgid "Add YouTube URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:536
+msgid "Vimeo URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:539
+msgid "Add Vimeo URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:545
+msgid "Dribbble URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:548
+msgid "Add Dribbble URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:554
+msgid "Skype URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:557
+msgid "Add Skype URL"
+msgstr ""
+
+#: include/customizer/customizer-options.php:563
+msgid "Email Address"
+msgstr ""
+
+#: include/customizer/customizer-options.php:566
+msgid "Add email address"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:59
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:132
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:408
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:62
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:133
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:386
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:418
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:443
+#: include/customizer/kirki/controls/views/image.php:37
+#: include/customizer/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:63
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:83
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:84
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:85
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:86
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:87
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:88
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:89
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:90
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:91
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:134
+#: include/customizer/kirki/controls/views/image.php:36
+#: include/customizer/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimension.php:41
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: include/customizer/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: include/customizer/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:145
+#: include/customizer/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:157
+#: include/customizer/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:151
+msgid "Center"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:86
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:227
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:376
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:387
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:387
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:419
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:419
+#: include/customizer/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:83
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:139
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:181
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:176
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "None"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:180
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Underline"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:194
+msgid "Overline"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Line-Through"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr ""
+
+#: include/customizer/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr ""
+
+#: include/customizer/kirki/controls/views/image.php:34
+#: include/customizer/kirki/controls/views/image.php:39
+#: include/customizer/kirki/field/class-kirki-field-image.php:47
+#: include/customizer/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: include/customizer/kirki/controls/views/image.php:35
+#: include/customizer/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: include/customizer/kirki/controls/views/image.php:38
+#: include/customizer/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: include/customizer/kirki/controls/views/image.php:40
+#: include/customizer/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-field.php:248
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-field.php:257
+#: include/customizer/kirki/core/class-kirki-field.php:267
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-field.php:358
+#, php-format
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-field.php:375
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-field.php:498
+#: include/customizer/kirki/core/class-kirki-field.php:509
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-init.php:289
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
+"get_variables() instead."
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-init.php:365
+msgid ""
+"Your theme uses a Font Awesome field for icons. To avoid issues with missing "
+"icons on your frontend we recommend you install the official Font Awesome "
+"plugin."
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki-init.php:369
+msgid "Don't show this again"
+msgstr ""
+
+#: include/customizer/kirki/core/class-kirki.php:237
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: include/customizer/kirki/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: include/customizer/kirki/field/class-kirki-field-color.php:52
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use "
+"\"choices[alpha]\" instead."
+msgstr ""
+
+#: include/customizer/kirki/field/class-kirki-field-radio.php:37
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: include/customizer/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#: include/customizer/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: include/customizer/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: include/customizer/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:920
+#: include/tgm-plugin/class-tgm-plugin-activation.php:2626
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:1027
+#: include/tgm-plugin/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3602
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3602
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: include/tgm-plugin/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: include/theme-settings.php:5
+msgid "Gallery Options"
+msgstr ""
+
+#: include/theme-settings.php:9 include/theme-settings.php:125
+msgid "Subtitle text"
+msgstr ""
+
+#: include/theme-settings.php:12
+msgid "Add top page subtitle text"
+msgstr ""
+
+#: include/theme-settings.php:28
+msgid "Gallery Images"
+msgstr ""
+
+#: include/theme-settings.php:31
+msgid "Add gallery images"
+msgstr ""
+
+#: include/theme-settings.php:53
+msgid "Gallery Template"
+msgstr ""
+
+#: include/theme-settings.php:56
+msgid "Select the gallery template"
+msgstr ""
+
+#: include/theme-settings.php:102
+msgid "Page Customization"
+msgstr ""
+
+#: include/theme-settings.php:106
+msgid "Custom Title"
+msgstr ""
+
+#: include/theme-settings.php:109
+msgid "Change page title"
+msgstr ""
+
+#: include/theme-settings.php:128
+msgid "Add page subtitle text"
+msgstr ""
+
+#: include/theme-settings.php:144
+msgid "Top Image Height"
+msgstr ""
+
+#: include/theme-settings.php:147
+msgid ""
+"Change top page image height ( eg: 450px ). Default is the full height of "
+"the device"
+msgstr ""
+
+#: my-templates/template-fullscreen.php:48
+#: my-templates/template-fullwidth.php:56 my-templates/template-home.php:72
+#: page.php:35 single-mt_gallery.php:23 single.php:167
+msgid ""
+"Sorry, but it seems we can&rsquo;t find what you&rsquo;re looking for. Try "
+"the menu above."
+msgstr ""
+
+#: my-templates/template-home.php:59
+msgid ""
+"Please add a video URL in Appearance > Customize > General Settings > Home - "
+"Video URL option"
+msgstr ""
+
+#: search.php:13
+msgid "Search Results"
+msgstr ""
+
+#: searchform.php:2
+msgid "type and hit enter"
+msgstr ""
+
+#: single.php:23
+msgid "By "
+msgstr ""
+
+#: single.php:69
+msgid "Next Page"
+msgstr ""
+
+#: single.php:70
+msgid "Previous Page"
+msgstr ""
+
+#: single.php:120
+msgid "Previous Image"
+msgstr ""
+
+#: single.php:127
+msgid "&larr; previous post"
+msgstr ""
+
+#: single.php:136
+msgid "next post &rarr;"
+msgstr ""
+
+#: single.php:149
+msgid "Next Image"
+msgstr ""

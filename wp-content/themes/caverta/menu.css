@@ -1,0 +1,9 @@
+.menu-nav > .menu-item:nth-child(2) > a {
+	background: none;
+}
+.menu-nav > .menu-item:nth-child(2) > a:before {
+    left: 0;
+    width: 100%;
+    border-color: var(--siteColor);
+}
+

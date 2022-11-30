@@ -1,0 +1,238 @@
+@import '/src/scss/index.scss';
+
+.menu-root-cat-item2 {
+    display: inline-block;
+    margin: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 20px 12px;
+    line-height: 1;
+}
+
+.menu-container {
+    border: none !important;
+}
+
+.my-menu-item {
+    font-size: 16px !important;
+    border-bottom: 1px dotted #999 !important;
+    -webkit-column-break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    box-shadow: none !important;
+    height: auto !important;
+    min-height: 120px;
+    margin: 0 0 24px 0 !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    font-family: Lora, serif !important;
+    color: #252525 !important;
+    line-height: 1.5em !important;
+}
+
+.my-menu-item .desc {
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.active-menu-category2 {
+    color: #9fc4ce !important;
+}
+
+.my-menu-item .menu-item-info {
+    font-family: Lora, serif !important;
+    font-size: 16px !important;
+    padding: 0 !important;
+    min-height: 55px !important;
+}
+
+.my-menu-item .menu-item-info p {
+    font-family: Lora, serif !important;
+    font-size: 18px !important;
+    color: #252525 !important;
+    font-weight: 700;
+    letter-spacing: .03em;
+    margin: 0 !important;
+}
+
+@media (min-width: 576px) {
+    .myContainer {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .myContainer {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .myContainer {
+        max-width: 930px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .myContainer {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .myContainer {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .myContainer {
+        max-width: 1350px;
+    }
+}
+
+.myContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rootCats {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.floatLeft {
+    display: inline-block;
+    float: left;
+}
+
+.menu-root-cat-item {
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.loading-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.loading-subcategories {
+    @extend .loading-item-wrapper;
+    min-height: 100px;
+}
+
+.loadingItem {
+    background-color: $menuBackground;
+    width: 100%;
+    height: 20px;
+    margin-top: 23px;
+}
+
+.menu-items-grid-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.empty-items-list {
+    @include centerFlex;
+    height: 300px;
+    width: 100%;
+}
+
+.quantity-input-group {
+    @include centerFlex;
+    justify-content: space-between;
+    .quantity-input {
+        text-align: center;
+        height: 40px;
+        width: 60px;
+    }
+    .title {
+        margin-right: 10px;
+    }
+}
+
+.menu-title {
+    font-size: 20px;
+}
+
+.item-moda-inner-container {
+    @include centerFlex;
+    flex-direction: column;
+    a {
+        color: #007bff;
+        cursor: pointer;
+    }
+}
+
+.item-modal-img {
+    max-width: 200px;
+    align-items: center;
+}
+
+.item-modal-detail {
+    width: 100%;
+    margin: 10px 0px;
+    .quantity {
+        flex: 1;
+        @include centerFlex;
+        p { margin: 0px; }
+    }
+    .quantity {
+        @extend .noselect;
+        flex-direction: row;
+        p {
+            margin: 0px 10px;
+        }
+        .quantity-editor {
+            @include centerFlex;
+            cursor: pointer;
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+        }
+    }
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.price{
+    font-weight: bold;
+    white-space: nowrap;
+}
+.description{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.item-modal-btn{
+    width: 100%;
+}
+.modal-title{
+    width: 100%;
+    text-align: center;
+}

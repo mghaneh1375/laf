@@ -1,0 +1,22 @@
+.topSingleBkg {
+	display: none !important;
+	visibility: hidden;
+}
+
+#wrap-content {
+    margin-top: 125px;
+    min-height: 51vh;
+}
+
+.menu-item a {
+	color: black !important;
+}
+
+.menu-item {
+	box-shadow: none !important;
+}
+.menu-item {
+	width: inherit !important;
+	height: inherit !important;
+	overflow: inherit !important;
+}

@@ -1,0 +1,83 @@
+@import '../../scss//index.scss';
+
+.background {
+    width: 100%;
+    height: 200px;
+    background: url("/images/background.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlayContentWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-title {
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 1px #fff;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+}
+
+.actionButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    flex: 1;
+}
+
+.actionButton {
+    height: 200px;
+    line-height: 200px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.orderButton {
+    @extend .flex;
+    @extend .actionButton;
+    background-color: rgb(255, 250, 232);
+    border-left: 1px solid $border-color;
+    &:last-child {
+        border-right: 1px solid $border-color
+    }
+}
+
+.bookingButton {
+    @extend .flex;
+    @extend .actionButton;
+    background-color: rgb(255, 231, 212);
+}
+
+@include tablet {
+    .bg-title {
+        font-size: 30px;
+    }
+}
+
+@include phone {
+    .bg-title {
+        font-size: 20px;
+    }
+    .actionButtons {
+        flex-direction: column;
+    }
+    .actionButton {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+    }
+}

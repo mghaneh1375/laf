@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: 'rgb(238, 242, 244)';
+}
+
+.centered {
+  text-align: center;
+}
+
+.flexCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textAlignRight {
+  text-align: right;
+}
+
+.textAlignLeft {
+  text-align: left;
+}
+
+.phone-input-form-control {
+  height: calc(1.5em + 0.75rem + 2px) !important;
+  width: 100% !important;
+}
+
+.was-validated .form-control:valid {
+  border-color: inherit !important;
+  background-image: none !important;
+}
+
+.required{
+  color: darkred;
+  vertical-align: middle;
+  font-size: 1.2em;
+}
+
+.capitalize {
+  text-transform:capitalize;
+}
+
+.postcode {
+  text-transform:uppercase;
+}
+
+.red{
+  color: darkred !important;
+}
+
+.headerFont {
+  font-size: $headerSize !important;
+  font-family: $headerFont !important;
+}
+
+.textFont1 {
+  font-size: $textSize1 !important;
+  font-family: $textFont1 !important;
+}
+
+.textFont2 {
+  font-size: $textSize2 !important;
+  font-family: $textFont2 !important;
+}
+
+.notBold {
+  font-weight: normal !important;
+}
+
+input:focus {
+  border: 3px solid $siteColor !important;
+  box-shadow: 0 0 10px $siteColor !important;
+}
+
+select:focus {
+  border: 1px solid $siteColor !important;
+  box-shadow: 0 0 10px $siteColor !important;
+}
+
+.spinner-border {
+  color: $siteColor;
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.btn {
+  border: 1px solid $siteColor !important;
+}
+
+.btn:disabled {
+  background-color: $disableColor !important;
+  border-color: $disableColor !important;
+}
+
+.btn-danger, .btn-secondary {
+  color: $siteColor !important;
+}
+
+
+.btn:focus{
+  border: 3px solid $siteColor !important;
+  box-shadow: 0 0 10px $siteColor !important;
+}
+
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+    "primary": $siteColor,
+    "danger": white,
+    "secondary": white
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

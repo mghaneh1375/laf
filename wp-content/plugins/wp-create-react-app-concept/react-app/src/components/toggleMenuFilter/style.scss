@@ -1,0 +1,16 @@
+@import '../../scss/index.scss';
+
+.filter-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.menu-filter-buttons {
+    .btn:not(.active) {
+        background-color: $border-color !important;
+        color: #a8a8a8 !important;
+    }
+}

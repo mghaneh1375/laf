@@ -1,0 +1,195 @@
+@import '../../scss/index.scss';
+
+.currentOrderContainer {
+    @include borderRadius(5px);
+    border: 1px solid $border-color;
+    min-height: 200px;
+    width: 100%;
+    top: 10px;
+    transition: all 125ms ease-in-out;
+    padding-bottom: 1em;
+
+    .basket-item-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        position: relative;
+
+
+        &:not(:last-child) {
+            border-bottom: 1px solid $border-color;
+        }
+
+        label {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .total, .subtotal{
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.95em;
+    }
+    .total{
+        font-weight: bold;
+    }
+    .basket-item-quantity {
+        @include fontSize(10px);
+        position: absolute;
+        color: #838383;
+        bottom: 0px;
+    }
+    .price-label {
+        color: $menuActiveColor;
+    }
+    .btn-outline-info {
+        @include fontSize(11px);
+        padding: 5px;
+    }
+    .basket-item-name {
+        @include fontSize(12px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .basket-total {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+        border-top: 1px solid $border-color;
+        padding: 10px 0px;
+    }
+    .min-delivery-time {
+        font-size: 12px;
+        color: $mutedColor;
+    }
+    .delivery-cost {
+        font-size: 13px;
+        color:$menuActiveColor;
+        padding-top: 17px;
+    }
+    .delivery-min-price {
+        background-color: #f9fafb;
+        padding: 10px;
+        width: 100%;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}
+
+@include desktop {
+    .currentOrderContainer {
+        position: -webkit-sticky;
+        position: sticky;
+
+        .basket-arrow-container {
+            display: none;
+        }
+    }
+}
+
+@include tablet {
+    .currentOrderContainer {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        left: 0;
+        right: 0;
+        min-height: 55px;
+        background: #FFF;
+        height: 0px;
+        z-index: 99;
+        transition: all 125ms ease-in-out;
+
+        .basket-top-header {
+            cursor: pointer;
+            position: relative;
+        }
+        .basket-arrow-container {
+            position: absolute;
+            top: 0;
+            bottom: 0px;
+            left: 0;
+            margin: auto 0px auto 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(0deg);
+            transition: all 125ms ease-in-out;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &.expanded {
+            height: auto;
+        }
+
+        .basketContainer.expanded {
+            .basket-arrow-container {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+@include phone {
+    .currentOrderContainer {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        left: 0;
+        right: 0;
+        min-height: 55px;
+        background: #FFF;
+        height: 0px;
+        z-index: 99;
+        transition: all 125ms ease-in-out;
+
+        .basket-top-header {
+            cursor: pointer;
+            position: relative;
+        }
+        .basket-arrow-container {
+            position: absolute;
+            top: 0;
+            bottom: 0px;
+            left: 0;
+            margin: auto 0px auto 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            transform: rotate(0deg);
+            transition: all 125ms ease-in-out;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        &.expanded {
+            height: auto;
+        }
+    }
+
+    .currentOrderContainer.expanded {
+        .basket-arrow-container {
+            transform: rotate(180deg);
+        }
+    }
+}
