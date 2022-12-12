@@ -83,7 +83,6 @@ export function http<T>(
                     ...init,
                     headers: cleanObj({
                         'Content-Type' : 'application/json',
-			"App-Name": "WebSite",
                         ...(!!init ? init.headers : {}),
                         'Authorization': token ? `Bearer ${token}` : undefined
                     })

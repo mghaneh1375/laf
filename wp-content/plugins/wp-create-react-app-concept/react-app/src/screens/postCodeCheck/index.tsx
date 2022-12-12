@@ -51,7 +51,7 @@ const PostCodeCheckModal = () => {
             })) {
                 setIsFormValid(true)
                 history.push({
-                    pathname: `/menu/${MenuFilter.Delivery}`,
+                    pathname: `/pages/${MenuFilter.Delivery}`,
                 })
             } else {
                 setIsFormValid(false)
@@ -84,7 +84,7 @@ const PostCodeCheckModal = () => {
             }) ) {
             setIsFormValid(true)
             history.push({
-                pathname: `/menu/${MenuFilter.Delivery}`,
+                pathname: `/pages/${MenuFilter.Delivery}`,
             })
         } else {
             setIsFormValid(false)

@@ -90,22 +90,23 @@ const Basket = ({ filter }: Props) => {
             <Container>
                 <div className="form-group"/>
                 <div className="form-group basket-top-header" onClick = { () => setIsBasketExpanded( p => !p ) }>
-                    <h5 className="basket-title">Basket {basketItems.length ? <span className="basket-count">{basketItems.length}</span> : ''} <span className="total-title">£{ basketTotal.toFixed(2) }</span></h5>
+                    <h5 className="basket-title textFont2">Basket {basketItems.length ? <span className="basket-count">{basketItems.length}</span> : ''} <span className="total-title">£{ basketTotal.toFixed(2) }</span></h5>
                     <div className='basket-arrow-container'>
                         <img src = { UpArrow }/>
                     </div>
                 </div>
-                { filter == MenuFilter.Delivery && deliveryTime && <p className='min-delivery-time'>Minimum delivery time: { `${deliveryTime} minutes` }</p>}
-                { filter == MenuFilter.TakeOut && storeInfo?.min_expected_takeout_time && <p className='min-delivery-time'>Minimum preparation time for takeout order: { `${storeInfo.min_expected_takeout_time} minutes` }</p>}
+                { filter == MenuFilter.Delivery && deliveryTime && <p className='min-delivery-time textSize1'>Minimum delivery time: { `${deliveryTime} minutes` }</p>}
+                { filter == MenuFilter.TakeOut && storeInfo?.min_expected_takeout_time && <p className='min-delivery-time textSize1'>Minimum preparation time for takeout order: { `${storeInfo.min_expected_takeout_time} minutes` }</p>}
+                <div className="myBorder"/>
                 <div className="basket-items">
-                    { basketItems.length == 0 && <div className='centered'>
+                    { basketItems.length == 0 && <div className='centered textSize1' style={{marginTop: "40px"}}>
                         <p>Your Basket is Empty!</p>
                     </div> }
                     { basketItems.map((item, index) =>
                         <div key = { index } className='basket-item-wrapper'>
-                            <label className='basket-item-name'>{ item.item.name }</label>
-                            <label className='price-label'>£{ `${(item.quantity * getPrice({ item: item.item, filter, selectedSizeId: item.sizeOptionId })).toFixed(2) }` }</label>
-                            <label className='basket-item-quantity'>
+                            <label className='basket-item-name textSize1'>{ item.item.name }</label>
+                            <label className='price-label textSize1'>£{ `${(item.quantity * getPrice({ item: item.item, filter, selectedSizeId: item.sizeOptionId })).toFixed(2) }` }</label>
+                            <label className='basket-item-quantity textSize1'>
                                 { `Quantity: ${item.quantity} ${sizeLabel(item)}` }
                             </label>
                             <Button variant="outline-info" onClick = { () => {
@@ -131,7 +132,7 @@ const Basket = ({ filter }: Props) => {
             input = { editingBasketItem ? { type: MenuItemModalDataType.Basket, item_index: itemIndex, dataSource: editingBasketItem }: undefined }
             dismiss = { () => setEditingBasketItem(undefined) }/>
 
-            <div className="tip">
+            <div className="tip textSize1">
                 * If you have food allergy or intolerance, please contact the restaurant before placing your order.
             </div>
 

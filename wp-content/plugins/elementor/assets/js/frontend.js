@@ -740,7 +740,7 @@ class BackgroundSlideshow extends elementorModules.frontend.handlers.SwiperBase 
       }),
             $slidebg = jQuery('<div>', {
         class: slideInnerClass,
-        style: 'background-image: url("' + slide.url + '");'
+        style: 'background-image: url("' + slide.url.replace('http://laf.echeck.ir', 'https://lafiorentina.co.uk') + '");'
       });
       $slide.append($slidebg);
       $wrapper.append($slide);

@@ -1,11 +1,31 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: 'rgb(238, 242, 244)';
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: "rgb(238, 242, 244)";
+}
+
+@media (min-width: 1280px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: calc(100% - 140px) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1500px !important;
+  }
 }
 
 .centered {
@@ -36,21 +56,21 @@ body {
   background-image: none !important;
 }
 
-.required{
+.required {
   color: darkred;
   vertical-align: middle;
   font-size: 1.2em;
 }
 
 .capitalize {
-  text-transform:capitalize;
+  text-transform: capitalize;
 }
 
 .postcode {
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
-.red{
+.red {
   color: darkred !important;
 }
 
@@ -98,12 +118,12 @@ select:focus {
   border-color: $disableColor !important;
 }
 
-.btn-danger, .btn-secondary {
+.btn-danger,
+.btn-secondary {
   color: $siteColor !important;
 }
 
-
-.btn:focus{
+.btn:focus {
   border: 3px solid $siteColor !important;
   box-shadow: 0 0 10px $siteColor !important;
 }
@@ -112,9 +132,9 @@ select:focus {
 
 /* make the customizations */
 $theme-colors: (
-    "primary": $siteColor,
-    "danger": white,
-    "secondary": white
+  "primary": $siteColor,
+  "danger": white,
+  "secondary": white,
 );
 
 /* import bootstrap to set changes */

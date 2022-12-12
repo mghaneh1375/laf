@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://dev.citypos.co.uk',
+      target: "https://prod.directday.com",
       changeOrigin: true,
       secure: false
     })

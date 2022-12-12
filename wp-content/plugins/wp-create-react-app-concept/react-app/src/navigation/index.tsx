@@ -41,7 +41,7 @@ function ScrollToTop() {
 
 const AppNavigation = () => {
     return (
-        <Router basename="/menu">
+        <Router basename="/pages">
           <ScrollToTop/>
           <RouteSwitcher />
         </Router>

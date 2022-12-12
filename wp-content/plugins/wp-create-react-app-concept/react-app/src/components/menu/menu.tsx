@@ -15,6 +15,7 @@ import Loader from "react-loader-spinner";
 
 //styles
 import ModalMenuItem, { MenuItemModalDataType } from './modalMenuItem'
+import useWindowDimensions from "./windowDimension";
 
 type SubCatId = string
 
@@ -29,6 +30,8 @@ const RestaurantMenu = ({ filter, onAddBasket }: Props) => {
     const { t } = useTranslation()
     const { updateCategoryContent, fetchedCategoryContents, rootCategories } = useMenuContext()
 
+    const { height, width } = useWindowDimensions();
+
     //state
     const [isLoadingMenuItems, setIsLoadingMenuItems] = React.useState<boolean>(false)
     const [visibleMenuItems, setVisibleMenuItems] = React.useState<MenuItem[][]>([])
@@ -40,20 +43,23 @@ const RestaurantMenu = ({ filter, onAddBasket }: Props) => {
     //reference
     const isComponentActive = React.useRef<boolean>(true)
     const currentFilter = React.useRef<MenuFilter>(filter)
-    const menuIsReady = React.useRef<boolean>(false)
-
+    const menuIsReady = React.useRef<boolean>(false);
+    const [ menuItemsInRow, setMenuItemsInRow ] = React.useState<number>(width < 1300 ? 2 : 3);
     //consts
-    const menuItemsInRow = 3
 
     React.useEffect(() => {
-        return () => { isComponentActive.current = false }
-    }, [])
+        return () => { setMenuItemsInRow(width < 1300 ? 2 : 3) }
+    }, [width]);
 
     React.useEffect(() => {
-        currentFilter.current = filter
-        setVisibleSubCats({})
+        return () => { isComponentActive.current = false; }
+    }, []);
+
+    React.useEffect(() => {
+        currentFilter.current = filter;
+        setVisibleSubCats({});
         getInitialContent()
-    }, [filter])
+    }, [filter, width]);
 
     const getInitialContent = () => {
         getInside()
@@ -62,15 +68,15 @@ const RestaurantMenu = ({ filter, onAddBasket }: Props) => {
                     selectTheFirstCategoryWithItem(filterCategories({ cats: res.value, filter: currentFilter.current }))
                 }
             }).catch() //no need to do anything
-    }
+    };
 
     const selectTheFirstCategoryWithItem = (cats: MenuCategoryItem[]) => {
-        if (cats.length == 0) return
+        if (cats.length == 0) return;
         if (hasCategoryItems(cats[0])) {
             getInside(cats[0])
                 .then((e) => {
-                    if (e.type == MenuContentType.Item) setMenuItems(e.value)
-                    menuIsReady.current = true
+                    if (e.type == MenuContentType.Item) setMenuItems(e.value);
+                    menuIsReady.current = true;
                     setActiveMenuCategoryId(cats[0].id)
                 }).catch()
         } else {
@@ -79,17 +85,17 @@ const RestaurantMenu = ({ filter, onAddBasket }: Props) => {
                     setVisibleSubCats(p => ({
                         ...p,
                         [cats[0].id]: p[cats[0].id] ? ![cats[0].id] : true
-                    }))
+                    }));
                     e.type == MenuContentType.Category && selectTheFirstCategoryWithItem(e.value)
                 }).catch()
         }
-    }
+    };
 
     const hasCategoryItems = (cat?: MenuCategoryItem) => cat ? cat.has_items : false
 
     const setMenuItems = (items: MenuItem[]) => {
         setVisibleMenuItems(chunkArray(filterMenuItems({ filter: currentFilter.current, items }) ,menuItemsInRow))
-    }
+    };
     /**
      * get inside of a category, if you pass nothing, it would return the root
      * @param {MenuCategoryItem=} cat
@@ -142,14 +148,14 @@ const RestaurantMenu = ({ filter, onAddBasket }: Props) => {
             ...p,
             [cat.id]: p[cat.id] ? !p[cat.id] : true
         }))
-    }
+    };
 
     const filterCategories = ({ filter, cats }: { filter: MenuFilter, cats: MenuCategoryItem[] }): MenuCategoryItem[] => {
         let filteredContent: MenuCategoryItem[] = filter == MenuFilter.Booking ? cats.filter((e) => e.is_table == true) :
         filter == MenuFilter.Delivery ? cats.filter((e) => e.is_delivery == true) :
         filter == MenuFilter.TakeOut ? cats.filter((e) => e.is_collect == true) : cats
         return filteredContent
-    }
+    };
 
     const filterMenuItems = ({ filter, items }: { filter: MenuFilter, items: MenuItem[] }): MenuItem[] => {
         let filteredContent = items.filter((e) => {
@@ -160,7 +166,7 @@ const RestaurantMenu = ({ filter, onAddBasket }: Props) => {
             return true
         })
         return filteredContent
-    }
+    };
 
     const renderSubCategoryContent = ({ cat, level }: {cat: MenuCategoryItem, level: number}) => {
         return <div>

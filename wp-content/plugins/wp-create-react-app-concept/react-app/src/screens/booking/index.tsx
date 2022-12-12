@@ -63,7 +63,7 @@ const Booking = () => {
 
     React.useEffect(() => {
         if (storeInfo != undefined && storeInfo.is_booking_active == false) {
-            toast.error('Booking service is not active in this restaurant!')
+            toast.error('Booking service is not active in this restaurant!');
             history.replace('/')
         }
         else {
@@ -82,8 +82,10 @@ const Booking = () => {
     }, [storeInfo]);
 
     React.useEffect(() => {
+
         //if user is not authenticated just return
         if (user == undefined) return;
+
         targetTimeRef.current = targetTime;
         getAvailableTimes()
     }, [targetTime, user]);
@@ -133,7 +135,7 @@ const Booking = () => {
     };
 
     const setReferSession = () => {
-        window.localStorage.refer = "/menu/booking";
+        window.localStorage.refer = "/pages/booking";
     };
 
     const guestQuantityChanged = (newValue: string) => {
@@ -298,7 +300,7 @@ const Booking = () => {
                                 <Form.Label>In order to use booking service you need to login</Form.Label>
                             </Form.Group>
                             <Form.Group className='centered'>
-                                <Link onClick={setReferSession} to ='/login'>Login</Link>
+                                <Link className="btn btn-primary" onClick={setReferSession} to ='/login'>Login</Link>
                             </Form.Group>
                         </Card>
                     </Card>

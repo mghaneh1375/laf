@@ -35,7 +35,7 @@ function rp_load_plugin(){
 //		        get_template_directory_uri() . '/my.css'
 //    		);
 	}
-	else if ( $page_slug[0] == "menu") {
+	else if ( $page_slug[0] == "pages") {
 		new RpLoadReactApp( 'wp_enqueue_scripts', '', '#wrap-content');
 
 		wp_enqueue_style(
@@ -59,9 +59,9 @@ function rp_load_plugin(){
 		get_header();
 		$header = ob_get_clean();
 		if(count($page_slug) > 1 && $page_slug[1] == "booking")
-			$header = preg_replace('#<title>(.*?)<\/title>#', '<title>Booking | Moorland Restaurant</title>', $header);
+			$header = preg_replace('#<title>(.*?)<\/title>#', '<title>Booking | La Fiorentina</title>', $header);
 		else
-			$header = preg_replace('#<title>(.*?)<\/title>#', '<title>Menu | Moorland Restaurant</title>', $header);
+			$header = preg_replace('#<title>(.*?)<\/title>#', '<title>Menu | La Fiorentina</title>', $header);
 
 		echo $header;
 	}

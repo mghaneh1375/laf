@@ -118,7 +118,7 @@ const CurrentOrder = ({ filter, submitted }: Props) => {
             </Container>
         </div>
         { !submitted && <div className='form-group centered'>
-            <Button onClick = { () => history.push({ pathname: '/menu/' + filter }) } variant="info">Edit order</Button>
+            <Button onClick = { () => history.push({ pathname: '/pages/' + filter }) } variant="info">Edit order</Button>
         </div>}
     </div>
 }

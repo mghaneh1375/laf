@@ -135,12 +135,12 @@
 	  <nav class="nav-holder nav-holder-5">
 
 		<ul id="signInDiv">
-                        <li class="hidden signInBtn" id="signInBtn"><a href="/menu/login">Sign In</a></li>
+                        <li class="hidden signInBtn" id="signInBtn"><a href="/pages/login">Sign In</a></li>
 
                         <div id="userInfoNav" class="hidden mr-auto nav-item dropdown">
                             <a aria-haspopup="true" aria-expanded="false" id="menu-nav-dropdown" onclick="toggleDropBox()" class="dropdown-toggle nav-link" role="button"></a>
                             <div aria-labelledby="menu-nav-dropdown" class="dropdown-menu hidden">
-                                <a class="dropdown-item" href="/menu/history">My Orders</a>
+                                <a class="dropdown-item" href="/pages/history">My Orders</a>
                                 <a onclick="logout()" class="dropdown-item">Sign Out</a>
                             </div>
                         </div>

@@ -31,7 +31,7 @@ const MenuScreen = () => {
 
     const changeFilter = (filter: MenuFilter) => {
         const location = {
-            pathname: filter == MenuFilter.Delivery ? `/menu/${latestActiveFilter.current}/postcode-check` : `/menu/${filter}`,
+            pathname: filter == MenuFilter.Delivery ? `/pages/${latestActiveFilter.current}/postcode-check` : `/pages/${filter}`,
             state: { background: thisLocation }
         }
         history.push(location)
