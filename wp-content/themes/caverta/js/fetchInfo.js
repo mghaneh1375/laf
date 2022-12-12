@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
 
 	$.ajax({
 		type: 'get',
-		url: 'https://dev.directday.com/api/v2/cm/branches/67fe3d16-7aea-11eb-adaf-54520098a755',
+		url: 'https://dev.directday.com/api/v2/cm/branches/336766bd-a671-11eb-adaf-54520098a755',
 		headers: {
 			"Content-Type": "application/json",
 			"Accept": "application/json",
